@@ -1,0 +1,34 @@
+header, footer {
+  background: yellow;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  clear: left;
+}
+
+article {
+  height: 400px;
+  float: left;
+  border: 1px solid gray;
+  width: 33%;
+}
+
+article > h3 {
+  text-align: center;
+}
+
+article > p {
+  margin: 30px;
+  background: lightblue;
+}
+
+article > img {
+  margin: 20px auto;
+  display: block;
+}
